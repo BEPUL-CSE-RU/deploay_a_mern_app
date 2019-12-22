@@ -1,0 +1,38 @@
+{
+  "name": "movie_creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "build": "cd movie_creator/ && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cacheDirectories": [
+    "client/node_modules",
+    "server/node_modules"
+  ],
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "express": "^4.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BEPUL-CSE-RU/Full-Stack-MERN-Develope-medium.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BEPUL-CSE-RU/Full-Stack-MERN-Develope-medium/issues"
+  },
+  "homepage": "https://github.com/BEPUL-CSE-RU/Full-Stack-MERN-Develope-medium#readme"
+}
