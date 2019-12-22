@@ -7,9 +7,9 @@
     "node": "10.x"
   },
   "scripts": {
-    "start": "cd sever/ && node app.js",
-    "build": "cd client/ && npm install && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cd server/ && node app.js",
+    "build": "cd client/ && npm install && npm run build"
+    
   },
   "cacheDirectories": [
     "client/node_modules",
