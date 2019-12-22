@@ -7,7 +7,7 @@
     "node": "10.x"
   },
   "scripts": {
-    "start": "node server",
+    "start": "cd sever/ && node app.js",
     "build": "cd movie_creator/ && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
