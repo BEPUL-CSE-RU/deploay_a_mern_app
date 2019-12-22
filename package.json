@@ -12,8 +12,9 @@
     
   },
   "cacheDirectories": [
-    "client/node_modules",
-    "server/node_modules"
+    "server/node_modules",
+    "client/node_modules"
+    
   ],
   "dependencies": {
     "concurrently": "^5.0.2",
