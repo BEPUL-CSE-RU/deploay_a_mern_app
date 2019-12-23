@@ -8,16 +8,19 @@
   "scripts": {
     "start": "cd server/ && node app.js",
     "build": "cd client/ && npm install && npm run build"
-    
   },
   "cacheDirectories": [
     "server/node_modules",
     "client/node_modules"
-    
   ],
   "dependencies": {
     "concurrently": "^5.0.2",
-    "express": "^4.16.4"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.13",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.1"
   },
   "repository": {
     "type": "git",
