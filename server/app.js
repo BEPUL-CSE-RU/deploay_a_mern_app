@@ -5,6 +5,8 @@ const app = express()
 const logger = require('morgan')
 const path = require('path');
 const apiPort = process.env.PORT || 9697
+
+//just check
 const db = require('./db/dbindex.js');
 
 const movieRouter = require('./routes/movie-router.js')
@@ -25,3 +27,4 @@ app.use("*",(req,res)=>{
 })
 
 app.listen(apiPort, () => console.log(`Server running on port `+apiPort));
+
