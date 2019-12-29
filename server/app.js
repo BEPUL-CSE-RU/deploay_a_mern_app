@@ -6,8 +6,7 @@ const logger = require('morgan')
 const path = require('path');
 const apiPort = process.env.PORT || 9697
 
-//just check
-const db = require('./db/dbindex.js');
+const db = require('./db/dbindex')
 
 const movieRouter = require('./routes/movie-router.js')
 
@@ -23,7 +22,7 @@ app.get('/', (req, res) => {
     res.send('succefull')
 })
 app.use("*",(req,res)=>{
-    res.sendFile(path.resolve(__dirname,"../client/build",'index.html'));
+    res.sendFile(path.resolve(__dirname,"../client/build","index.html"));
 })
 
 app.listen(apiPort, () => console.log(`Server running on port `+apiPort));
