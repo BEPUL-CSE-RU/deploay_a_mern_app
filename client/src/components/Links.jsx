@@ -17,9 +17,7 @@ class Links extends Component{
     render(){
         return(
             <React.Fragment>
-                <Link to="/" className="navbar-brand">
-                    My First Mern Application
-                </Link>
+               
                 <Collapse>   
                     <List>
                         <Item>
@@ -31,8 +29,8 @@ class Links extends Component{
                             <Link to="/createMovie" className="nav-link">
                             Create Movie
                             </Link>
-                            <Link to="/" className="nav-link">
-                                ok
+                            <Link to="/about" className="nav-link">
+                                About
                             </Link>
                         </Item> 
                     </List> 
